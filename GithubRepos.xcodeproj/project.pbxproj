@@ -15,6 +15,7 @@
 		890624882048A37100A4BAA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 890624872048A37100A4BAA3 /* main.m */; };
 		890624922048A37200A4BAA3 /* GithubReposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 890624912048A37200A4BAA3 /* GithubReposTests.m */; };
 		8906249D2048A37200A4BAA3 /* GithubReposUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8906249C2048A37200A4BAA3 /* GithubReposUITests.m */; };
+		890624AC2048A87500A4BAA3 /* repoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 890624AB2048A87500A4BAA3 /* repoObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		890624982048A37200A4BAA3 /* GithubReposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubReposUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8906249C2048A37200A4BAA3 /* GithubReposUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubReposUITests.m; sourceTree = "<group>"; };
 		8906249E2048A37200A4BAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890624AA2048A87500A4BAA3 /* repoObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = repoObject.h; sourceTree = "<group>"; };
+		890624AB2048A87500A4BAA3 /* repoObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = repoObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				890624832048A37100A4BAA3 /* LaunchScreen.storyboard */,
 				890624862048A37100A4BAA3 /* Info.plist */,
 				890624872048A37100A4BAA3 /* main.m */,
+				890624AA2048A87500A4BAA3 /* repoObject.h */,
+				890624AB2048A87500A4BAA3 /* repoObject.m */,
 			);
 			path = GithubRepos;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890624AC2048A87500A4BAA3 /* repoObject.m in Sources */,
 				8906247D2048A37100A4BAA3 /* ViewController.m in Sources */,
 				890624882048A37100A4BAA3 /* main.m in Sources */,
 				8906247A2048A37100A4BAA3 /* AppDelegate.m in Sources */,
